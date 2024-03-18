@@ -1,0 +1,33 @@
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 25em);
+    gap: 20px;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1500px;
+    margin-top: 50px ;
+}
+
+.shop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.category-buttons{
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+.category-buttons button {
+    padding: 15px;
+    font-size: 18px;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: rgba(255, 255, 255, 0.333);
+    border-radius: 20px 20px 20px 20px;
+    transform: translate(0px, 0px) rotate(0deg);
+    transition: 0.2s;
+    max-width: 300px;
+    color: #fff;
+    background-color: #101720;
+}

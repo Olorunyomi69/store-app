@@ -1,0 +1,192 @@
+.cart {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px auto;
+}
+.cartIcon {
+    align-self: center;
+}
+.emptycart svg{
+    width: 400px;
+    height: 400px;
+
+}
+.emptycart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.emptycart p{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.emptycart button{
+    padding: 10px 40px;
+    font-size: 22px;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: rgba(255, 255, 255, 0.333);
+    border-radius: 20px 20px 20px 20px;
+    transform: translate(0px, 0px) rotate(0deg);
+    transition: 0.2s;
+    max-width: 300px;
+    color: #fff;
+    background-color: #101720;
+}
+
+.emptycart button:hover {
+    color: #516d91;
+    background-color: #e5edf5;
+    box-shadow: -2px -1px 8px 0px #ffffff, 2px 1px 8px 0px rgb(95 157 231 / 48%);
+  }
+
+  .emptycart button:active{
+    box-shadow: none;
+  }
+.checkout {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 2px solid  rgba(255, 255, 255, 0.333);
+  background-color: #101720;
+  padding: 50px;
+  border-radius: 20px;
+  color: #fff;
+  max-height: 350px;
+}
+
+.checkout p {
+  font-size: 20px;
+}
+.checkout button {
+  padding: 15px 40px;
+  font-size: 18px;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: rgba(255, 255, 255, 0.333);
+  border-radius: 20px 20px 20px 20px;
+  transform: translate(0px, 0px) rotate(0deg);
+  transition: 0.2s;
+  }
+
+.checkout button:hover {
+  color: #516d91;
+  background-color: #e5edf5;
+  box-shadow: -2px -1px 8px 0px #ffffff, 2px 1px 8px 0px rgb(95 157 231 / 48%);
+}
+
+.checkout button:active {
+  box-shadow: none;
+}
+
+.ordered-items {
+  margin: 20px 0;
+  padding: 0;
+}
+.ordered-items h1 {
+  margin: 0 auto;
+  padding: 0;
+}
+.cartItems {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  justify-content: justify;
+}
+
+.cart-items {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  width: 800px;
+}
+
+#cart-text {
+  align-self: center;
+}
+
+.cart-items img {
+  width: 20%;
+  /* height: 80%; */
+}
+
+.delete-button button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  border: 0px solid transparent;
+  background-color: rgba(100, 77, 237, 0.08);
+  border-radius: 1.25em;
+  transition: all 0.2s linear;
+}
+
+.delete-button button:hover {
+  box-shadow: 3.4px 2.5px 4.9px rgba(0, 0, 0, 0.025),
+    8.6px 6.3px 12.4px rgba(0, 0, 0, 0.035),
+    17.5px 12.8px 25.3px rgba(0, 0, 0, 0.045),
+    36.1px 26.3px 52.2px rgba(0, 0, 0, 0.055),
+    99px 72px 143px rgba(0, 0, 0, 0.08);
+}
+.delete-button svg {
+  width: 30px;
+  height: 30px;
+}
+.delete-button {
+  align-self: center;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 4em;
+  background-color: rgba(0, 0, 0, 0.253);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 25%;
+  left: 110%;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent rgba(0, 0, 0, 0.253) transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.count-handler button {
+  padding: 8px 15px;
+  font-size: 20px;
+  border-radius: 6px;
+}
+
+.count-handler input {
+  padding: 13px 10px;
+  width: 32px;
+  margin: 0 5px;
+  text-align: center;
+  border: none;
+  font-size: 18px;
+}

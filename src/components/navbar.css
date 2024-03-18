@@ -1,0 +1,34 @@
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1500px;
+    background-color: rgb(19, 19, 19);
+}
+
+.logo{
+    color: #fff;
+}
+
+.links{
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+}
+.links button{
+    background-color: rgb(19, 19, 19);
+    color: #fff;
+    border: none;
+}
+
+
+
+.links a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 25px;
+}
